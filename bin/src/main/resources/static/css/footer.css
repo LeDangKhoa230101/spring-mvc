@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+footer {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border: 15px solid var(- -back-color);
+	font-size: 1.6rem
+}
+
+#footer_company {
+	width: 300px;
+	margin: 30px;
+}
+
+.footer_title {
+	margin: 10px 0px;
+}
+
+#footer_company-title {
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(146, 146, 146);
+	
+}
+
+#footer_company-info {
+	margin: 20px 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+#footer_company-info i {
+	margin-bottom: 10px;
+	
+}
+
+#footer_about {
+	width: 300px;
+	margin: 87px 0px 0px 40px;
+}
+
+#footer_about ul li {
+	list-style: none;
+	margin: 10px -20px;
+	
+}
+
+#footer_suport {
+	width: 300px;
+	margin-top: 87px;
+}
+
+#footer_suport ul li {
+	list-style: none;
+	margin: 10px -20px;
+	
+}
+
+#footer-care {
+	width: 300px;
+	margin-top: 87px;
+}
+#relate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #888888;
+    margin-bottom: 20px;
+}
+.headset-img{
+    width: 100px;
+    height: 100px;
+}
+#connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+#connect i{
+    margin:0px 20px;
+}
+.sticky{
+    display: none;
+}
+.sticky1{
+    height: 70px;
+}
+@media screen and (max-width: 1024px) {
+    .contain{
+        width: 1024px;
+        font-size: 16px;
+    }
+    #logo{
+        margin-right: 20px;
+        margin-left: -20px;
+    }}
+   	
+    .logo-footer{
+        width: 80px;
+        height: 53px;
+    }
+    .goverment-img{
+        width: 387px;
+        height: 62px;
+    }
+   

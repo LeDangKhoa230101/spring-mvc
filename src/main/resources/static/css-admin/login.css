@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.login-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.error {
+	color: red;
+}
+
+.modal-content {
+	padding: 20px;
+	max-width: 500px;
+}
+
+.modal-header {
+	border-bottom: none !important;
+}
+
+.modal-title {
+	color: var(--black-color);
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.modal-header .btn-close {
+	font-size: 1.4rem;
+}
+
+/* form*/
+.form-body {
+	position: relative;
+	margin-top: 16px;
+}
+
+.form-body label {
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: var(--black-color);
+}
+
+.form-control.form-input:focus {
+	border-color: var(--black-color);
+	box-shadow: none;
+}
+
+.form-control.form-input {
+	font-size: 1.6rem;
+	padding: 7px 10px;
+}
+
+.eye-btn {
+	position: absolute;
+	top: 29px;
+    right: 13px;
+    border: none;
+    background-color: transparent;
+    color: #ced4da;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.btn-login {
+	width: 100%;
+	margin-top: 16px;
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--black-color);
+	padding: 9px;
+	background-color: #e2e2e2;
+	text-transform: uppercase;;
+}
+
+.modal-footer {
+	font-size: 1.4rem;
+	color: var(--black-color);
+	border-top: none !important;
+}
+
+.modal-footer .footer-btn {
+	border: none;
+	outline: none;
+	color: blue;
+	background-color: transparent;
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+#user {
+	overflow: hidden;
+}
+
+.user-container {
+	max-width: var(--width-website);
+	min-height: 560px;
+	margin: var(--height-header) auto 0;
+	padding: 20px 0;
+	display: flex;
+}
+
+.infor-user {
+	border-bottom: 1px solid #dddddd;	
+	padding: 8px 20px;
+}
+
+.infor-user > span {
+	font-size: 1.6rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.infor-user > img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	margin-right: 8px;
+	border: 1px solid #8f8f8f;
+}
+
+.tabs {
+	position: relative;
+	margin-right: 10px;
+}
+
+.tab-item {
+	min-width: 80px;
+	padding: 12px 20px;
+	font-size: 1.6rem;
+    text-transform: uppercase;
+	text-align: left;
+	color: var(--black-color);
+	background-color: #fff;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.tab-icon {
+	font-size: 24px;
+	width: 32px;
+	position: relative;
+	top: 2px;
+}
+
+.tab-item:hover {
+	opacity: 1;
+	background-color: #f5f5f5;
+}
+
+.tab-item.active {
+	opacity: 1;
+}
+
+.tab-content {
+	padding: 28px 20px;
+	background-color: #f5f5f5;
+	flex: 1;
+}
+
+.tab-pane {
+	color: #333;
+	display: none;
+}
+
+.tab-pane.active {
+	display: block;
+}
+
+.tab-pane h2 {
+	font-size: 24px;
+	font-weight: 300;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #efefef;
+}
+
+.separate {
+    border: 1px solid #f5f5f5;
+    margin-top: 50px;
+}
+
+/*
+	Responsive
+*/
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+	.shop-cart h1 {
+		padding: 0 20px;
+	}
+}
+
+/*  tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+	
+	
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+	
+}
+
+
+
+
+
+
+
+
+
